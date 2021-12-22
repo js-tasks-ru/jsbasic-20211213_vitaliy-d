@@ -5,14 +5,10 @@ let calculator = {
     this.a = a;
     this.b = b;
   },
-  sum: function (a, b) {
-    a = this.a;
-    b = this.b
-    return a + b},
-  mul: function (a, b) {
-    a = this.a;
-    b = this.b
-    return a * b},
+  sum: function () {
+    return this.a + this.b},
+  mul: function () {
+    return this.a * this.b},
 };
 // НЕ УДАЛЯТЬ СТРОКУ, НУЖНА ДЛЯ ПРОВЕРКИ
 window.calculator = calculator; // делает ваш калькулятор доступным глобально
