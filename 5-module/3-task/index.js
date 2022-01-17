@@ -2,7 +2,8 @@ function initCarousel() {
   let carousel = document.querySelector('.carousel__inner');
   let buttonRight = document.querySelector('.carousel__arrow_right');
   let buttonLeft = document.querySelector('.carousel__arrow_left');
-  let carouselWidth, i = 0;
+  let carouselWidth = 0;
+  let i = 0;
 
   buttonLeft.style.display = 'none';
 
